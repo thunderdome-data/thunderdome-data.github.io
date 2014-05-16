@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, Times;
+}
+
+h1 { text-align: center; font-size: 50px; margin-bottom: -12px; margin-top: 25px; font-family: 'Belgrano', serif; }
+h2 { text-align: center; font: italic 16px Georgia; color: #666; margin-left: auto; margin-right: auto; padding: 0 10px 0 10px; line-height: 1.5em}
+h3 { text-align: center; font-size: 25px; margin-top: 10px; color: #39547a; font-family: 'Belgrano', serif;}
+
+p  { font-size: 16px; line-height: 1.4em }
+
+#mainVid {
+	width: 100%; margin-top: 30px;
+}
+
+#vidCon img { width: 100%; margin-top: 25px;  }
+
+#stickynav { 
+	z-index: 100;
+	background-color: #000;
+	color: #CCC;
+}
+
+#mapCon {
+	width:100%;
+	text-align: center;
+	margin-top: 40px;
+	z-index: 101;
+}
+
+#themap { margin-top: 100px; }
+
+#continue { 
+	margin-top: 20px;
+	font-size: 15px;
+	font-style: italic;
+	color: #999;
+	text-align: center;
+}
+
+.fullimg { 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titleIcon { 
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+}
+
+.imgConTop {
+	margin: 0 0 20px 0;
+	background-color: #000;
+}
+.imgCon {
+	margin: 20px 0 20px 0;
+
+}
+
+.titleCard {
+	height: 150px;
+	background-color: #ececec;
+	padding-top: 45px;
+	margin-top: 30px;
+}
+
+#contents {
+	margin-top: 25px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Belgrano', serif;
+}
+#contents li {
+	list-style: none;
+	margin-bottom: 15px;
+	margin-left: -45px;
+}
+#contents ul { margin-top: 30px;}
+
+#bulletInset {
+	padding: 20px;
+	width: 190px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	background-color: rgba(255,255,255, .85);
+}
+
+#thefooter {
+	background-color: #333;
+	color: #999;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+#thefooter p { font: 12px Arial; line-height: 1.5em }
+
+.navbar-brand  { color: #999 !important; font: 12px Arial !important; margin-top: 4px;}
+.bartitle { color: #FFF;}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.photocredit { font: italic 11px Arial; color: #999; margin-top: -20px; }
+.photocredittop { font: italic 11px Arial; color: #CCC; margin-top: -38px; margin-left: 5px;}
+
+.navbar li {
+	text-align: center;
+	font-size: 16px ;
+}
+
+
+
+.backtotop {
+	font: italic 12px Arial;
+}
+
+#shareCon {
+	width: 190px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+#fb-like, #tw-share { float: left;}
+
+
+@media only screen and (max-width: 620px) {
+	h1 { font-size: 30px; }
+	h2 { font-size: 14px; }
+	
+
+}
